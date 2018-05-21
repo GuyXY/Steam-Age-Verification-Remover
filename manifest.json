@@ -11,7 +11,7 @@
 	},
 	
 	"background": {
-		"scripts": ["cookie.js", "bgscript.js"]
+		"scripts": ["lib/cookie.js", "bgscript.js"]
 	},
 	
 	"permissions": [

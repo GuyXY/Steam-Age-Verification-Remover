@@ -1,4 +1,4 @@
-![alt text](https://github.com/GuyXY/Steam-Age-Verification-Remover/raw/master/icons/icon64.png) 
+![alt text](https://github.com/GuyXY/Steam-Age-Verification-Remover/raw/master/src/icons/icon64.png) 
 
 Steam Age Verification Remover
 ======
@@ -15,10 +15,11 @@ https://addons.mozilla.org/en-US/firefox/addon/steam-age-verification-remover/
 Build
 ------
 To build this project you have to have the following tools installed:
-`zip`
+`jq zip nodejs npm`
 
 Once you have installed all of these tools, you can build the project with these few steps:
 
 ```
-./build.sh
+npm install
+npm run build
 ```

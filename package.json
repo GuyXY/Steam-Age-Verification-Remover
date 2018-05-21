@@ -1,0 +1,24 @@
+{
+  "name": "steam-age-verification-remover",
+  "version": "1.0.3",
+  "description": "Steam Age Verification Remover removes Steam's annoying age verification.",
+  "dependencies": {
+    "webext-cookie.js": "^1.1.3",
+    "webextension-polyfill": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuyXY/Steam-Age-Verification-Remover.git"
+  },
+  "author": "GuyXY",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/GuyXY/Steam-Age-Verification-Remover/issues"
+  },
+  "homepage": "https://github.com/GuyXY/Steam-Age-Verification-Remover#readme"
+}
