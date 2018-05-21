@@ -23,3 +23,4 @@ Once you have installed all of these tools, you can build the project with these
 npm install
 npm run build
 ```
+The resulting files are going be in the dist directory. Note that the chrome files will work with all chromium based browsers.
