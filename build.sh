@@ -24,7 +24,7 @@ cp node_modules/webextension-polyfill/dist/browser-polyfill.min.js $DIST_DIR/chr
 
 # patch the manifest files accordingly
 jq -c '.background.scripts |= ["lib/browser-polyfill.min.js"] + .' < manifest.json > $DIST_DIR/chrome/manifest.json
-cp manifest.json $DIST_DIR/firefox/
+jq -sc add firefox.json manifest.json > $DIST_DIR/firefox/manifest.json
 
 # create the final zip files for every browser
 cd $DIST_DIR/firefox;   zip -r $DIST_DIR/firefox.zip *
