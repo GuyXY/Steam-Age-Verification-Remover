@@ -1,5 +1,5 @@
 #!/bin/bash
-  
+ 
 # make sure that the script exits as soon as an error occurs
 set -e
 
